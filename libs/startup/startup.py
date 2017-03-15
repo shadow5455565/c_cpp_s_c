@@ -6,16 +6,16 @@ class startup:
       print("(*) Checking for updates...", end=" ")
       VBootStrapper.updates = update.update("Check-Updates")
       print("  (*)Checking for new BootStrapper version...")
-      if globals.updates["BS_New_version"] == 1:
-         print("     (!) New version ("+ VBootStrapper.updates["BS-Version"] + ") of the BootStapper!")
+      if VBootStrapper.updates["BS_is_new_version"] == 1:
+         print("     (!) New version ("+ VBootStrapper.updates["BS_New_version"] + ") of the BootStapper!")
          print("     (!) Downloading the new version...", end="")
          updater.update("BS-update") ## in update.update: gitdownload("shadow5455565", "c_cpp_s_c") ## (author, repository name)
          print(" [ DONE ]")
       else:
          print("     (-) The BootStrapper is already updated.")
       print("  (*)Checking for new C Script Analyzer version...")
-      if VBootStrapper.updates["CSA_New_version"] == 1:
-         print("     (!) New version (" + VBootStrapper.updates["CSA_version"] + ") of the C Script Analyzer available...")
+      if VBootStrapper.updates["CSA_is_new_version"] == 1:
+         print("     (!) New version (" + VBootStrapper.updates["CSA_New_version"] + ") of the C Script Analyzer available...")
          print("     (!) Downloading the new version...", end="")
          updater.update("CSA-Update")
          print(" [ DONE ]")
