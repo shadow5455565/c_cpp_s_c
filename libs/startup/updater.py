@@ -5,7 +5,7 @@ class updater:
       "Check-Updates" : "check-updates"
     };
     def check_updates:
-        htmlonlinefilelist=url.urlopen("https://www.github.com/shadow5455565/c_cpp_s_c/onlinefilelist.txt").read()
+        htmlonlinefilelist=url.urlopen("https://raw.github.com/shadow5455565/c_cpp_s_c/master/onlinefilelist.txt").read()
         onlinefilelist=parseFile(htmlonlinefilelist, "HTML/dbtx")
         txtlocalfilelist=open("/localfilelist.txt", "r+").read()
         localfilelist=parseFile(txtlocalfilelist, "TXT/dbtx")
