@@ -1,9 +1,9 @@
 import urrlib.request as url
 import libs.variables.VBootStrapper.VBootStrapper as VBootStrapper
 class updater:
-    commands{
+    commands={
       "Check-Updates" : "check-updates"
-    };
+    }
     def check_updates:
         htmlonlinefilelist=url.urlopen("https://raw.github.com/shadow5455565/c_cpp_s_c/master/onlinefilelist.txt").read()
         onlinefilelist=parseFile(htmlonlinefilelist, "HTML/dbtx")
