@@ -1,7 +1,9 @@
+###PART OF THE PROJECT C/C++ Script Checker###
+
 ###SYNTAX of the online filelist and local filelist:
 ### "<ignore>directory, version;" where <ignore> is ~ if we want to ignore the string
 ### like ~/dir/example.py, 1.0.0; , this string is ignored and it passes to the next one
-### /dir/example2.py, 1.0.2;, this is not ignored and variable _dir will be "/dir/example2,py" adn _varsion will be "1.0.2"
+### /dir/example2.py, 1.0.2;, this is not ignored and variable _dir will be "/dir/example2.py" and _varsion will be "1.0.2"
 ###CREATED by CRYogen aka shadow5455565, for contacts raulradu2000@yahoo.it | twitter @shadow5455565 | github: github.com/shadow5455565
 ###This is free to use and modify, just give me credits.
 ###Have a nice reading and understanding of the code, and a nice day ^^
