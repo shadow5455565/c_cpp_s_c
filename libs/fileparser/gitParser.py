@@ -10,10 +10,12 @@
 ###Again if you want to implement new functionalities to the code and perfectionate it just write me an email with the new parts,
 ###and i'll add them to the code giving you credits
 
-###TODO: 1. create a function that clears the file by the \n and other things like that
-###      2. Add dir checker for BS-online-version
-###      3. Add dir checker fo  VBS-online-version
-###      4. Add offline-file parser
+###TODO: 1. Create a function that clears the file by the \n and other things like that;
+###      2. Add dir checker for BS-online-version;
+###      3. Add dir checker fo  VBS-online-version;
+###      4. Add offline-file parser;
+###      5. Port variable updates in function gitParser() to a more global location, 
+###         like a class with all the update variables(/libs/variables/VBootStrap.py);
 
 ### Variable text is the input text coming, target is the variable, or better dictionary, where the parsed output is going
 def gitParser(text, target):
