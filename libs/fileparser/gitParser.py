@@ -1,5 +1,21 @@
+###SYNTAX of the online filelist and local filelist:
+### "<ignore>directory, version;" where <ignore> is ~ if we want to ignore the string
+### like ~/dir/example.py, 1.0.0; , this string is ignored and it passes to the next one
+### /dir/example2.py, 1.0.2;, this is not ignored and variable _dir will be "/dir/example2,py" adn _varsion will be "1.0.2"
+###CREATED by CRYogen aka shadow5455565, for contacts raulradu2000@yahoo.it | twitter @shadow5455565 | github: github.com/shadow5455565
+###This is free to use and modify, just give me credits.
+###Have a nice reading and understanding of the code, and a nice day ^^
+###Again if you want to implement new functionalities to the code and perfectionate it just write me an email with the new parts,
+###and i'll add them to the code giving you credits
+
+###TODO: 1. create a function that clears the file by the \n and other things like that
+###      2. Add dir checker for BS-online-version
+###      3. Add dir checker fo  VBS-online-version
+###      4. Add offline-file parser
+
+### Variable text is the input text coming, target is the variable, or better dictionary, where the parsed output is going
 def gitParser(text, target):
-    if target == "updater":
+    if target == "updater-online": ###for the online version of the file
         updates = {
             "BS-online-version":"",
             "VBS-online-version":"",
@@ -53,7 +69,7 @@ updates2={
     "VBS-online-version":"",
     "updater-online-version":"122"
     }
-updates=gitParser("/libs/startup/updater.py ,129;sciao,;", "updater")
+updates=gitParser("/libs/startup/updater.py ,129;sciao,;", "updater-online")
 print(updates)
 if updates2==updates:
     print("Workin well...")
