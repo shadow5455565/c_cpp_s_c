@@ -1,12 +1,5 @@
-\! This is a comment, will be ignored by the file analyzer; 
-   There are multiple ways to comment like : "\\";
-   Structure of the file: <ignore> <id> "DIRECTORY", "VERSION";
-   if ignore is "~" like in .gitignore the text analyzer will ignore it;
-   "AUTHOR: shadow5455565"
-!\
-
-/main.py, 1.0.0; \\main file
-~/.gitignore, ;  \\GITIGNORE will be ignored
+/main.py, 1.0.0;
+~/.gitignore, ; GI
 /LICENSE,  1.0.0;
 /README.md, 1.0.0;
 /libs/startup/startup.py, 1.0.0;
@@ -14,5 +7,3 @@
 /libs/startup/update/localfilelist.txt, ;
 /libs/variables/VBootStrap.py, 1.0.0;
 /libs/variables/Vupdater.py, 1.0.0;
-\\ add files directory and version like ->"/libs/..., ;
-
