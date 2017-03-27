@@ -5,14 +5,14 @@
    "AUTHOR: shadow5455565"
 !\
 
-"/main.py", "1.0.0"; \\main file
-~"/.gitignore", "";  \\GITIGNORE will be ignored
-"/LICENSE",  "1.0.0";
-"/README.md", "1.0.0";
-"/libs/startup/startup.py", "1.0.0";
-"/libs/startup/update/updater.py", "1.0.0";
-"/libs/startup/update/localfilelist.txt", "";
-"/libs/variables/VBootStrap.py", "1.0.0";
-"/libs/variables/Vupdater.py", "1.0.0";
-\\ add files directory and version like ->"/libs/...", "";
+/main.py, 1.0.0; \\main file
+~/.gitignore, ;  \\GITIGNORE will be ignored
+/LICENSE,  1.0.0;
+/README.md, 1.0.0;
+/libs/startup/startup.py, 1.0.0;
+/libs/startup/update/updater.py, 1.0.0;
+/libs/startup/update/localfilelist.txt, ;
+/libs/variables/VBootStrap.py, 1.0.0;
+/libs/variables/Vupdater.py, 1.0.0;
+\\ add files directory and version like ->"/libs/..., ;
 
